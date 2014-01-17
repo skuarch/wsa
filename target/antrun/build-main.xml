@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy file="configuration/configuration.properties" tofile="target/configuration/configuration.properties"/>
+  <copy file="configuration/log4j.properties" tofile="target/configuration/log4j.properties"/>
+</target>
+</project>
